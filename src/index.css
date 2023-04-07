@@ -1,3 +1,27 @@
+:root {
+  --body_background_color: rgb(166, 251, 255);
+  --body_background: #ffffff;
+  --secondary_color: rgb(243, 246, 246);
+  --footer_color: #000000;
+  --svg_color: #000000;
+  --body_color: black;
+  --body_secondary_color: #7b7b7b;
+  --border_color: #E3E3E3;
+  --link_color: navy;
+}
+
+[data-theme="dark"] {
+  --body_background_color: #282c34;
+  --body_background: #111111;
+  --secondary_color: #1d1d1d;
+  --footer_color: #000000;
+  --svg_color: #000000;
+  --body_color: #FFFFFF;
+  --body_secondary_color: #7b7b7b;
+  --border_color: #3D3D3D;
+  --link_color: cyan;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

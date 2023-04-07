@@ -1,0 +1,46 @@
+.About {
+    width: 400px;
+    background: var(--body_background);
+    border-radius: 16px;
+    margin-bottom: 400px;
+}
+
+.About>div {
+    position: relative;
+    margin-top: 100px;
+    /* display: flex; */
+
+}
+
+.About>div>img {
+    width: 240px;
+    height: 240px;
+    border-radius: 16px;
+    position: absolute;
+    top: -120px;
+    left: 20%;
+}
+
+.About>div>div.top {
+    padding-top: 144px;
+
+}
+
+.About>div>div.top>h1 {
+    margin: 0;
+    color: var(--body_color);
+}
+
+.About>div>div.top>h3 {
+    margin: 4px auto 16px;
+    display: inline-block;
+    padding: 6px 20px;
+    color: var(--body_secondary_color);
+    background-color: var(--secondary_color);
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.links {
+    height: 400px;
+}
