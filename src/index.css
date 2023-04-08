@@ -8,6 +8,7 @@
   --body_secondary_color: #7b7b7b;
   --border_color: #E3E3E3;
   --link_color: navy;
+  --button_color: linear-gradient(90deg, #fa5252, #dd2476);
 }
 
 [data-theme="dark"] {

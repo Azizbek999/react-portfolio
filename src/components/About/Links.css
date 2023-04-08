@@ -1,0 +1,20 @@
+.Links {
+    display: flex;
+    justify-content: center;
+}
+
+.Links>a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary_color);
+    border-radius: 6px;
+    margin: auto 5px;
+}
+
+.Links>a:hover {
+    background: var(--button_color);
+    color: #ffffff;
+}
