@@ -18,3 +18,19 @@
     background: var(--button_color);
     color: #ffffff;
 }
+
+.facebook {
+    color: blue;
+}
+
+.telegram {
+    color: rgb(36, 193, 255);
+}
+
+.instagram {
+    color:  #ff006a;
+}
+
+.linkedin {
+    color: rgb(28, 28, 255);
+}

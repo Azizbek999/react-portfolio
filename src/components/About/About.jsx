@@ -14,9 +14,7 @@ const About = () => {
                 </div>
                 <Links />
             </div>
-            <div>
-                <Info />
-            </div>
+            <Info />
             <a href=""></a>
         </div>
     )

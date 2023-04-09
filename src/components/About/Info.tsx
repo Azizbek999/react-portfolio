@@ -1,9 +1,9 @@
 import React from "react"
-
+import "./Info.css"
 
 const Info = (): JSX.Element => {
     return (
-        <div className="">
+        <div className="Info">
             <div className="">
                 <span className="">
                     <svg viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">

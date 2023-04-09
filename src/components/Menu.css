@@ -10,6 +10,8 @@
 }
 
 .navbar > .navbar-link {
+    display: flex;
+    flex-direction: column;
     width: 80px;
     height: 80px;
     background-color: var(--secondary_color);
@@ -23,6 +25,10 @@
     font-size: 13px;
     font-family: sans-serif, ;
     /* background: linear-gradient(90deg, #fa5252, #dd2476); */
+}
+
+.navbar > .navbar-link > span{
+    font-size: 20px;
 }
 
 .navbar > :hover {
