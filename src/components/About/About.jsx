@@ -15,7 +15,12 @@ const About = () => {
                 <Links />
             </div>
             <Info />
-            <a href=""></a>
+            <div className="cv">
+                <a className="cv_download" href="">
+                    <img src="download.png" alt="" />
+                    Download CV
+                </a>
+            </div>
         </div>
     )
 }

@@ -1,4 +1,72 @@
 .Info {
     padding: 20px;
     margin: 28px 20px 20px 20px !important;
+    background-color: var(--secondary_color);
+    border-radius: 16px;
+}
+
+.Info>div {
+    padding: 10px 0;
+    display: flex;
+}
+
+.Info span {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--svg_color);
+    border-radius: 0.5rem;
+}
+
+.Info>div>span:hover {
+    background: linear-gradient(90deg, #fa5252, #dd2476);
+    color: white;
+}
+
+.Info p {
+    margin: 0;
+}
+
+.Info>.phone>span {
+    color: #E93B81;
+}
+
+.Info>.location>span {
+    color: #6AB5B9;
+}
+
+.Info>.email>span {
+    color: #FD7590;
+}
+
+.Info>.birthday>span {
+    color: #C17CEB;
+}
+
+
+
+.Info>div>div {
+    margin-left: 0.625rem;
+    justify-content: left;
+}
+
+.Info>div>div>p {
+    text-align: left;
+    color: #A6A6A6;
+}
+
+a {
+    text-decoration: none;
+}
+
+.break-all,
+.break-all a {
+    color: var(--body_color) !important;
+    font-weight: 500;
+}
+
+.break-all a:hover {
+    color: #FA5252 !important;
 }

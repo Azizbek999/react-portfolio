@@ -15,7 +15,7 @@
 }
 
 .Links>a:hover {
-    background: var(--button_color);
+    background: linear-gradient(90deg, #fa5252, #dd2476);
     color: #ffffff;
 }
 
