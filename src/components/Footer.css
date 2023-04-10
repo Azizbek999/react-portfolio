@@ -1,0 +1,11 @@
+.Footer {
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    background: var(--footer_color);
+    align-items: center;
+}
+
+.Footer p {
+    color: var(--body_color);
+}

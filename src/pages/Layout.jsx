@@ -20,7 +20,6 @@ function Layout() {
           <Route path="/Resume" element={<Resume />} />
           <Route path="/Works" element={<Works />} />
           <Route path="/Contact" element={<Contact />} />
-
         </Routes>
       </div>
     </Router>

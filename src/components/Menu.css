@@ -2,6 +2,7 @@
     width: 526px;
     height: 144px;
     margin-left: auto;
+    margin-bottom: 2.5rem;
     background-color: var(--body_background);
     border-radius: 1rem;
     display: flex;
