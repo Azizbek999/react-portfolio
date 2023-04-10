@@ -1,8 +1,5 @@
 import './App.css';
-// import DarkMode from './DarkMode/DarkMode';
-import Home from "./pages/Home"
 import Header from './components/Header';
-import Menu from './components/Menu';
 import About from './components/About/About';
 import Layout from './pages/Layout';
 
@@ -15,7 +12,6 @@ function App() {
           <About />
         </div>
         <div className='page'>
-          {/* <Menu /> */}
           <Layout />
         </div>
       </div>

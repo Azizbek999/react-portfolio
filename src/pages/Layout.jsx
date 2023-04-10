@@ -4,8 +4,8 @@ import {
   Route,
 } from "react-router-dom";
 import Menu from "../components/Menu";
-import Home from "./Home";
-import Resume from "./Resume";
+import Home from "./Home/Home";
+import Resume from "./Resume/Resume";
 import Works from "./Works";
 import Contact from "./Contact";
 import "./Layout.css"

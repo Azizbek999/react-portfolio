@@ -18,8 +18,8 @@
   --footer_color: #000000;
   --svg_color: #000000;
   --body_color: #FFFFFF;
-  --body_secondary_color: #7b7b7b;
-  --border_color: #3D3D3D;
+  --body_secondary_color: #a6a6a6;
+  --border_color: #3D3A3A;
   /* --link_color: cyan; */
   --button_hover_color: linear-gradient(90deg, #fa5252, #dd2476);
 }

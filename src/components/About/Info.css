@@ -2,12 +2,16 @@
     padding: 20px;
     margin: 28px 20px 20px 20px !important;
     background-color: var(--secondary_color);
-    border-radius: 16px;
+    border-radius: 1rem;
 }
 
 .Info>div {
     padding: 10px 0;
     display: flex;
+}
+
+.with-border {
+    border-bottom: 1px solid var(--border_color);
 }
 
 .Info span {
@@ -18,6 +22,8 @@
     justify-content: center;
     background-color: var(--svg_color);
     border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
+
 }
 
 .Info>div>span:hover {
