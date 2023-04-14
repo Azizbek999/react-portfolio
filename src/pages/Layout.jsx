@@ -7,7 +7,7 @@ import Menu from "../components/Menu";
 import Home from "./Home/Home";
 import Resume from "./Resume/Resume";
 import Works from "./Works";
-import Contact from "./Contact";
+import Contact from "./Contact/Contact";
 import "./Layout.css"
 
 function Layout() {
