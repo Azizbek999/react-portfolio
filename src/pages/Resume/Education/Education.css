@@ -1,0 +1,44 @@
+/* General styles */
+.text-6xl {
+    font-size: 2.5rem !important;
+    /* Assuming this corresponds to text-6xl */
+}
+
+.text-5xl {
+    font-size: 26px !important;
+    /* Assuming this corresponds to text-5xl */
+}
+
+.dark:text-white {
+    color: white;
+    /* Assuming this corresponds to dark:text-white */
+}
+
+.font-medium {
+    font-weight: 500;
+    /* Assuming this corresponds to font-medium */
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+    /* Assuming this corresponds to mb-4 */
+}
+
+/* Education section styles */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.space-x-2 {
+    margin-right: 0.5rem;
+    /* Assuming this corresponds to space-x-2 */
+}
+
+.svg-edu{
+    color: rgb(249 80 84);
+}
+
+.h4-education {
+    color: var(--body_color);
+}

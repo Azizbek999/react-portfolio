@@ -1,0 +1,36 @@
+.education-entry {
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background-color: var(--background-for-edu-item-sc); */
+    border: 1px solid;
+    border-color: var(--border-color-2);
+}
+
+.item-style-1 {
+    background-color: var(--background-for-edu-item-pr);
+}
+
+.item-style-2 {
+    background-color: var(--background-for-edu-item-sc);
+}
+
+.education-entry>h3 {
+    color: var(--body_color);
+    margin: 0;
+    margin-top: 8px;
+}
+
+.education-entry>p {
+    color: var(--body_secondary_color);
+    margin: 0;
+    margin-top: 8px;
+}
+
+.education-entry>span {
+    color: var(--body_secondary_color);
+    margin: 0;
+}

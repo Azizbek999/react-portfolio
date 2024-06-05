@@ -1,0 +1,58 @@
+.Resume {
+    border-radius: 20px;
+    background-color: var(--body_background);
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.resume-about-me>div {
+    padding: 48px 56px;
+}
+
+div.resume-about-me>div>h2 {
+    margin: 0;
+    text-align: start;
+    font-family: Roboto Slab, serif;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    color: var(--body_color);
+    font-weight: 700;
+}
+
+.resume-about-me>div>h2::after {
+    content: "";
+    margin-left: 1rem;
+    position: relative;
+    display: inline-block;
+    height: 2px;
+    width: 200px;
+    background: linear-gradient(90deg, #fa5252, #dd2476);
+}
+
+.resume-about-me {
+    padding: 0 !important;
+}
+
+/* .flex-conatiner-resume {
+    display: flex;
+} */
+
+.flex-conatiner-resume {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two columns with equal width */
+    gap: 30px;
+    /* Optional: Add spacing between columns */
+}
+
+.Skills-Knowladge-Container {
+    background-color: var(--background-color-for-skills-and-knowladge);
+    padding: 48px 56px;
+}
+
+/* .knowledge h4 {
+    text-align: left;
+    color: black;
+} */
+

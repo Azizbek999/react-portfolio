@@ -1,20 +1,33 @@
+import Education from "./Education/Education"
+import Experience from "./Experience/Experience"
+import Skills from "./Skills/Skills"
+import Knowladges from "./Knowlages/Knowladges"
+import "./Resume.css"
+import Footer from "../../components/Footer.tsx"
+
 const Resume = () => {
-
-
     return (
-        <div>
-            <div>
-                <div className="about-me">
-                    <h2>About Me</h2>
+        <div className="Resume">
+            <div className="Resume-container"></div>
+            <div className="resume-about-me">
+                <div>
+                    <h2>Resume</h2>
                     <div>
-                        <p>I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
-                        <p>My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p>
+                        <div className="flex-conatiner-resume">
+                            <Education />
+                            <Experience />
+                        </div>
                     </div>
                 </div>
             </div>
+            <div className="Skills-Knowladge-Container">
+                <div className="flex-conatiner-resume">
+                    <Skills className="item" />
+                    <Knowladges className="item" />
+                </div>
+            </div>
+            <Footer />
         </div>
-
-
     )
 }
 

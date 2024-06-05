@@ -9,6 +9,13 @@
   --border_color: #E3E3E3;
   /* --link_color: navy; */
   --button_hover_color: linear-gradient(90deg, #fa5252, #dd2476);
+  --background-color-for-do: rgb(243, 250, 255);
+  --border-for-do: none;
+  --background-for-form: #F8FBFB;
+  --background-for-edu-item-pr: rgb(255, 244, 244);
+  --background-for-edu-item-sc: rgb(238, 245, 250);
+  --border-color-2: white !important;
+  --background-color-for-skills-and-knowladge: rgb(248 251 251)
 }
 
 [data-theme="dark"] {
@@ -22,6 +29,13 @@
   --border_color: #3D3A3A;
   /* --link_color: cyan; */
   --button_hover_color: linear-gradient(90deg, #fa5252, #dd2476);
+  --background-color-for-do: none !important;
+  --border-for-do: rgb(177, 177, 177);
+  --background-for-form: none;
+  --background-for-edu-item-pr: none;
+  --background-for-edu-item-sc: none;
+  --border-color-2: #3D3A3A;
+  --background-color-for-skills-and-knowladge: rgb(13 13 13)
 }
 
 body {
@@ -31,6 +45,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Poppins, sans-serif;
 }
 
 code {

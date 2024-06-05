@@ -2,6 +2,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  Navigate,
 } from "react-router-dom";
 import Menu from "../components/Menu";
 import Home from "./Home/Home";
@@ -13,10 +14,11 @@ import "./Layout.css"
 function Layout() {
   return (
     <Router>
+      <Menu />
       <div className="Layout">
-        <Menu />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Navigate to="/Home" replace />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="/Resume" element={<Resume />} />
           <Route path="/Works" element={<Works />} />
           <Route path="/Contact" element={<Contact />} />

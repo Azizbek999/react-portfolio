@@ -1,0 +1,39 @@
+/* Add your CSS styles here */
+.mb-7 {
+    margin-bottom: 1.75rem;
+    /* You can adjust this value */
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.py-1 {
+    padding-top: 0.25rem;
+    /* You can adjust this value */
+    padding-bottom: 0.25rem;
+    /* You can adjust this value */
+}
+
+.Skills h4 {
+    text-align: left;
+    margin: 0 0 32px 0;
+    color: var(--body_color);
+}
+
+/* Define other necessary styles */
+.skills-item {
+    box-sizing: border-box;
+    color: var(--body_secondary_color) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.skills-item>div {
+    margin: 10px 0 -10px 0 !important;
+    padding: 0 !important;
+}
