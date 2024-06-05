@@ -41,6 +41,6 @@
 
 .main {
   display: flex;
-  margin: auto 20%;
+  justify-content: center;
   gap: 2.5rem;
 }
